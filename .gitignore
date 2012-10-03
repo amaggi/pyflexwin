@@ -1,4 +1,15 @@
 *.py[co]
+# fortran stuff
+*.o
+*.a
+*.mod
+# specific flexwin stuff
+*.hed
+*.tbl
+*.lis
+flexwin
+remodl
+setbrn
 
 # Packages
 *.egg
@@ -25,3 +36,10 @@ pip-log.txt
 
 #Mr Developer
 .mr.developer.cfg
+
+#vi
+*.swp
+
+# svn
+.svn
+.gmt*

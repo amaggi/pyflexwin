@@ -1,0 +1,297 @@
+ DEBUG: ------------------------------------:
+ DEBUG: PARAMETERS read in from PAR_FILE are:
+        DEBUG T
+        MAKE_SEISMO_PLOTS T
+        MAKE_WINDOW_FILES F
+        BODY_WAVE_ONLY F
+        WIN_MIN_PERIOD   50.0000000000000     
+        WIN_MAX_PERIOD   150.000000000000     
+        STALTA_BASE  8.000000000000000E-002
+        TSHIFT_BASE   15.0000000000000     
+        TSHIFT_REFERENCE   0.00000000000000     
+        DLNA_BASE   1.00000000000000     
+        DLNA_REFERENCE   0.00000000000000     
+        CC_BASE  0.850000000000000     
+ DEBUG: ------------------------------------:
+ Number of seismograms to measure : 
+           1
+ For each seismogram: 
+ Observed seismogram
+data/events_lh/1995.122.05.32.16.0000.II.ABKT.00.LHZ.D.SAC
+ Synthetic seismogram
+data/specfem/ABKT.II.LHZ.semd.sac
+ Output basename
+MEASURE/ABKT.II.LHZ
+ DEBUG : reading sac files
+ DEBUG : b, dt, npts     -500.4    1.0000      7701
+ DEBUG : sta,net,comp = ABKT   LHZ    II     
+ DEBUG : selecting windows
+ Preparing windows for stalta
+ Calling ttimes
+ DEBUG first point of obs/synt envelope before    0.00000000000000        0.00000000000000     
+ DEBUG first point of obs/synt envelope middle    0.00000000000000       4.891675606244483E-012
+ DEBUG first point of obs/synt envelope after   1.423935191979808E-008  4.891675606244483E-012
+ DEBUG : Cs, Cl =   0.954992586021436       0.996169712514941     
+ Number of points used to pre-extend synthetics        50000
+ Checking data quality
+ DEBUG : noise_start =   -500.4000    
+ DEBUG : noise_end =    881.2414    
+ DEBUG : signal_start =    881.2414    
+ DEBUG : signal_end =    4411.834    
+ DEBUG : in1,in2,is1,is2,npts :           1        1382        1382        4913        7701
+ DEBUG : data_ok : T
+ DEBUG : signal_int :   9.0544031E-12
+ DEBUG : noise_int :  1.7565705E-14
+ DEBUG : snr_int :   515.4591    
+ DEBUG : signal_amp :   1.6666902E-05
+ DEBUG : noise_amp :  5.4187791E-07
+ DEBUG : snr_amp :   30.75767    
+ DEBUG : SNR_INTEGRATE_BASE :   3.500000    
+ DEBUG : SNR_MAX_BASE :   3.000000    
+ Finding max min 
+ Making all windows 
+ DEBUG : window generation found         5053  possible windows
+ Rejecting on water level 
+ DEBUG : water level rejection retained          135  acceptable windows
+ DEBUG : sorted          135  windows
+ Rejecting on size 
+ DEBUG : window length rejection retained          107  acceptable windows
+ Rejecting on prominence 
+ DEBUG : prominence of central maximum rejection retained          107  acceptable windows
+ DEBUG : single phase group rejection retained           21  acceptable windows
+ DEBUG : curtailed            1  windows on the left
+ DEBUG : curtailed            0  windows on the right
+ Rejecting on size (REPEAT)
+ DEBUG : window length rejection retained           21  acceptable windows
+ DEBUG : iwin, iL, iM, iR, t_start, t_end
+ DEBUG :    1  972 1181 1218   470.60   716.60
+ DEBUG :    2 1054 1263 1300   552.60   798.60
+ DEBUG :    3 1135 1344 1377   633.60   875.60
+ DEBUG :    4 1218 1432 1556   716.60  1054.60
+ DEBUG :    5 1300 1432 1556   798.60  1054.60
+ DEBUG :    6 1556 1760 1855  1054.60  1353.60
+ DEBUG :    7 1556 1760 1986  1054.60  1484.60
+ DEBUG :    8 1693 1760 1986  1191.60  1484.60
+ DEBUG :    9 2221 2478 2569  1719.60  2067.60
+ DEBUG :   10 2221 2478 2711  1719.60  2209.60
+ DEBUG :   11 2336 2478 2569  1834.60  2067.60
+ DEBUG :   12 2336 2478 2711  1834.60  2209.60
+ DEBUG :   13 2404 2478 2711  1902.60  2209.60
+ DEBUG :   14 2569 2769 2776  2067.60  2274.60
+ DEBUG :   15 2569 2850 2959  2067.60  2457.60
+ DEBUG :   16 2711 2850 2959  2209.60  2457.60
+ DEBUG :   17 2959 3093 3174  2457.60  2672.60
+ DEBUG :   18 3174 3287 3428  2672.60  2926.60
+ DEBUG :   19 3353 3504 3610  2851.60  3108.60
+ DEBUG :   20 3610 3687 3909  3108.60  3407.60
+ DEBUG :   21 4004 4154 4439  3502.60  3937.60
+ DEBUG : amp_ratio,signal_amp,noise_amp :   0.101175215311487       5.482461418182538E-008  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :   3.713206490877412E-002  6.518482063684635E-016  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            1  0.101175215311487        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :   0.128012055617977       6.936690510883636E-008  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :   6.789564320096653E-002  1.191898520847553E-015  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            2  0.128012055617977        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :   0.128012055617977       6.936690510883636E-008  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :   6.824895608332292E-002  1.198100879084745E-015  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            3  0.128012055617977        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :   0.875362235528071       4.743394583783811E-007  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    1.42270669135934       2.497541699416399E-014  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            4  0.875362235528071        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :   0.875362235528071       4.743394583783811E-007  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    1.84629698933216       3.241148543385421E-014  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            5  0.875362235528071        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    3.30433574881381       1.790546548363636E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    24.4216813076131       4.287191998608235E-013  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            6   3.30433574881381        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    3.30433574881381       1.790546548363636E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    27.3870899883294       4.807765345235569E-013  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            7   3.30433574881381        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    3.30433574881381       1.790546548363636E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    38.3804713998588       6.737638077235603E-013  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            8   3.30433574881381        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.47101292304258       4.590254775393987E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    140.658598825739       2.469242030577023E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :            9   8.47101292304258        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.47101292304258       4.590254775393987E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    127.188543617487       2.232777095250771E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           10   8.47101292304258        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.47101292304258       4.590254775393987E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    203.258949983247       3.568182440174756E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           11   8.47101292304258        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.47101292304258       4.590254775393987E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    161.953411539488       2.843069489580779E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           12   8.47101292304258        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.47101292304258       4.590254775393987E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    194.180138936879       3.408805181972901E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           13   8.47101292304258        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    6.38580264364668       3.460325388005003E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    135.808859817854       2.384105540553875E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           14   6.38580264364668        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.53440320946054       4.624604571290547E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    222.593724506432       3.907601702864296E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           15   8.53440320946054        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.53440320946054       4.624604571290547E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    296.491305126242       5.204863395698676E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           16   8.53440320946054        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    14.2254613720163       7.708463272138033E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    619.917483745944       1.088256472859821E-011  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           17   14.2254613720163        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    8.55742683406175       4.637080564862117E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    263.479808429780       4.625351188015265E-012  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           18   8.55742683406175        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    17.7382429558860       9.611962013877928E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    1068.07314138143       1.874987462157809E-011  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           19   17.7382429558860        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    12.3667864388879       6.701288384647341E-006  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    604.910492811528       1.061911910154731E-011  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           20   12.3667864388879        1.50000000000000     
+ DEBUG : amp_ratio,signal_amp,noise_amp :    30.7576692178188       1.666690150159411E-005  5.418779096544313E-007
+ DEBUG : pow_ratio,signal_pow,noise_pow :    2250.80586615602       3.951258219390665E-011  1.755486014499654E-014
+ DEBUG : iwin, amp_ratio :           21   30.7576692178188        1.50000000000000     
+ DEBUG : window noise quality rejection retained           16  acceptable windows
+ DEBUG : iwin, iL, iM, iR, t_start, t_end
+ DEBUG :    1 1556 1760 1855  1054.60  1353.60
+ DEBUG :    2 1556 1760 1986  1054.60  1484.60
+ DEBUG :    3 1693 1760 1986  1191.60  1484.60
+ DEBUG :    4 2221 2478 2569  1719.60  2067.60
+ DEBUG :    5 2221 2478 2711  1719.60  2209.60
+ DEBUG :    6 2336 2478 2569  1834.60  2067.60
+ DEBUG :    7 2336 2478 2711  1834.60  2209.60
+ DEBUG :    8 2404 2478 2711  1902.60  2209.60
+ DEBUG :    9 2569 2769 2776  2067.60  2274.60
+ DEBUG :   10 2569 2850 2959  2067.60  2457.60
+ DEBUG :   11 2711 2850 2959  2209.60  2457.60
+ DEBUG :   12 2959 3093 3174  2457.60  2672.60
+ DEBUG :   13 3174 3287 3428  2672.60  2926.60
+ DEBUG :   14 3353 3504 3610  2851.60  3108.60
+ DEBUG :   15 3610 3687 3909  3108.60  3407.60
+ DEBUG :   16 4004 4154 4439  3502.60  3937.60
+ DEBUG : fit criteria rejection retained           16  acceptable windows
+ DEBUG : iwin, iL, iM, iR, t_start, t_end, Tshift, dlnA, CC
+ DEBUG :    1 1556 1760 1855  1054.60  1353.60    -2.00     0.00     0.99
+ DEBUG :    2 1556 1760 1986  1054.60  1484.60    -3.00     0.07     0.96
+ DEBUG :    3 1693 1760 1986  1191.60  1484.60    -3.00     0.06     0.96
+ DEBUG :    4 2221 2478 2569  1719.60  2067.60     0.00     0.17     0.97
+ DEBUG :    5 2221 2478 2711  1719.60  2209.60     0.00     0.12     0.97
+ DEBUG :    6 2336 2478 2569  1834.60  2067.60     0.00     0.16     0.98
+ DEBUG :    7 2336 2478 2711  1834.60  2209.60     0.00     0.12     0.97
+ DEBUG :    8 2404 2478 2711  1902.60  2209.60     0.00     0.12     0.97
+ DEBUG :    9 2569 2769 2776  2067.60  2274.60    -1.00     0.04     0.96
+ DEBUG :   10 2569 2850 2959  2067.60  2457.60    -5.00    -0.17     0.97
+ DEBUG :   11 2711 2850 2959  2209.60  2457.60    -5.00    -0.19     0.97
+ DEBUG :   12 2959 3093 3174  2457.60  2672.60    -5.00     0.18     0.98
+ DEBUG :   13 3174 3287 3428  2672.60  2926.60   -13.00    -0.13     0.95
+ DEBUG :   14 3353 3504 3610  2851.60  3108.60    -6.00     0.09     0.97
+ DEBUG :   15 3610 3687 3909  3108.60  3407.60     4.00    -0.13     0.89
+ DEBUG :   16 4004 4154 4439  3502.60  3937.60    -9.00    -0.64     0.83
+ DEBUG : duplicate rejection retained           16  acceptable windows
+ DEBUG : iwin, iL, iM, iR, t_start, t_end, Tshift, dlnA, CC
+ DEBUG :    1 1556 1760 1855  1054.60  1353.60    -2.00     0.00     0.99
+ DEBUG :    2 1556 1760 1986  1054.60  1484.60    -3.00     0.07     0.96
+ DEBUG :    3 1693 1760 1986  1191.60  1484.60    -3.00     0.06     0.96
+ DEBUG :    4 2221 2478 2569  1719.60  2067.60     0.00     0.17     0.97
+ DEBUG :    5 2221 2478 2711  1719.60  2209.60     0.00     0.12     0.97
+ DEBUG :    6 2336 2478 2569  1834.60  2067.60     0.00     0.16     0.98
+ DEBUG :    7 2336 2478 2711  1834.60  2209.60     0.00     0.12     0.97
+ DEBUG :    8 2404 2478 2711  1902.60  2209.60     0.00     0.12     0.97
+ DEBUG :    9 2569 2769 2776  2067.60  2274.60    -1.00     0.04     0.96
+ DEBUG :   10 2569 2850 2959  2067.60  2457.60    -5.00    -0.17     0.97
+ DEBUG :   11 2711 2850 2959  2209.60  2457.60    -5.00    -0.19     0.97
+ DEBUG :   12 2959 3093 3174  2457.60  2672.60    -5.00     0.18     0.98
+ DEBUG :   13 3174 3287 3428  2672.60  2926.60   -13.00    -0.13     0.95
+ DEBUG :   14 3353 3504 3610  2851.60  3108.60    -6.00     0.09     0.97
+ DEBUG :   15 3610 3687 3909  3108.60  3407.60     4.00    -0.13     0.89
+ DEBUG :   16 4004 4154 4439  3502.60  3937.60    -9.00    -0.64     0.83
+ DEBUG : windows fall into            6  groups
+ DEBUG :            1  :            1           2           3
+ DEBUG :            2  :            4           5           6           7           8           9          10          11
+ DEBUG :            3  :           12
+ DEBUG :            4  :           13          14
+ DEBUG :            5  :           15
+ DEBUG :            6  :           16
+ DEBUG : Analysing group            1
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.7836 =   0.6953  0.9888  0.6667) : 
+ DEBUG : Combination is :           1
+ DEBUG :      2 (  0.8747 =   1.0000  0.9573  0.6667) : 
+ DEBUG : Combination is :           2
+ DEBUG :      3 (  0.7688 =   0.6814  0.9584  0.6667) : 
+ DEBUG : Combination is :           3
+ DEBUG : Chosen combination is            2
+ DEBUG : Analysing group            2
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.7732 =   0.4715  0.9730  0.8750) : 
+ DEBUG : Combination is :           4
+ DEBUG :      2 (  0.8349 =   0.6640  0.9658  0.8750) : 
+ DEBUG : Combination is :           5
+ DEBUG :      3 (  0.7228 =   0.3157  0.9777  0.8750) : 
+ DEBUG : Combination is :           6
+ DEBUG :      4 (  0.7842 =   0.5081  0.9694  0.8750) : 
+ DEBUG : Combination is :           7
+ DEBUG :      5 (  0.7536 =   0.4160  0.9699  0.8750) : 
+ DEBUG : Combination is :           8
+ DEBUG :      6 (  0.7059 =   0.2805  0.9622  0.8750) : 
+ DEBUG : Combination is :           9
+ DEBUG :      7 (  0.7896 =   0.5285  0.9652  0.8750) : 
+ DEBUG : Combination is :          10
+ DEBUG :      8 (  0.7261 =   0.3360  0.9672  0.8750) : 
+ DEBUG : Combination is :          11
+ DEBUG :      9 (  0.8232 =   0.7520  0.9676  0.7500) : 
+ DEBUG : Combination is :           4           9
+ DEBUG :     10 (  0.9064 =   1.0000  0.9691  0.7500) : 
+ DEBUG : Combination is :           4          10
+ DEBUG :     11 (  0.8426 =   0.8076  0.9701  0.7500) : 
+ DEBUG : Combination is :           4          11
+ DEBUG :     12 (  0.9055 =   1.0000  0.9665  0.7500) : 
+ DEBUG : Combination is :           5          11
+ DEBUG :     13 (  0.7720 =   0.5962  0.9699  0.7500) : 
+ DEBUG : Combination is :           6           9
+ DEBUG :     14 (  0.8552 =   0.8442  0.9714  0.7500) : 
+ DEBUG : Combination is :           6          10
+ DEBUG :     15 (  0.7914 =   0.6518  0.9724  0.7500) : 
+ DEBUG : Combination is :           6          11
+ DEBUG :     16 (  0.8542 =   0.8442  0.9683  0.7500) : 
+ DEBUG : Combination is :           7          11
+ DEBUG :     17 (  0.8235 =   0.7520  0.9685  0.7500) : 
+ DEBUG : Combination is :           8          11
+ DEBUG : Chosen combination is           10
+ DEBUG : Analysing group            3
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.6605 =   1.0000  0.9816  0.0000) : 
+ DEBUG : Combination is :          12
+ DEBUG : Chosen combination is            1
+ DEBUG : Analysing group            4
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.6789 =   0.5826  0.9542  0.5000) : 
+ DEBUG : Combination is :          13
+ DEBUG :      2 (  0.6862 =   0.5894  0.9690  0.5000) : 
+ DEBUG : Combination is :          14
+ DEBUG : Chosen combination is            2
+ DEBUG : Analysing group            5
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.6310 =   1.0000  0.8929  0.0000) : 
+ DEBUG : Combination is :          15
+ DEBUG : Chosen combination is            1
+ DEBUG : Analysing group            6
+ checking the scoring for all combinations
+ DEBUG :      1 (  0.6111 =   1.0000  0.8333  0.0000) : 
+ DEBUG : Combination is :          16
+ DEBUG : Chosen combination is            1
+ DEBUG : overlap resolution retained            7  preferred windows
+ DEBUG : iwin, iL, iM, iR, t_start, t_end, Tshift, dlnA, CC
+ DEBUG :    1 1556 1760 1986  1054.60  1484.60    -3.00     0.07     0.96
+ DEBUG :    2 2221 2478 2569  1719.60  2067.60     0.00     0.17     0.97
+ DEBUG :    3 2569 2850 2959  2067.60  2457.60    -5.00    -0.17     0.97
+ DEBUG :    4 2959 3093 3174  2457.60  2672.60    -5.00     0.18     0.98
+ DEBUG :    5 3353 3504 3610  2851.60  3108.60    -6.00     0.09     0.97
+ DEBUG :    6 3610 3687 3909  3108.60  3407.60     4.00    -0.13     0.89
+ DEBUG :    7 4004 4154 4439  3502.60  3937.60    -9.00    -0.64     0.83
+ Selected windows, start and end time, CC, Tshift, dlnA  
+   1   1054.600  1484.600     0.957    -3.000     0.073
+   2   1719.600  2067.600     0.973     0.000     0.172
+   3   2067.600  2457.600     0.965    -5.000    -0.171
+   4   2457.600  2672.600     0.982    -5.000     0.184
+   5   2851.600  3108.600     0.969    -6.000     0.091
+   6   3108.600  3407.600     0.893     4.000    -0.130
+   7   3502.600  3937.600     0.833    -9.000    -0.636
+ DEBUG : writing output seismos
